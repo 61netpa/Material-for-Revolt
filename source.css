@@ -1,1 +1,8 @@
-
+div[class^="MessageBox__Base-sc-jul4fa-0"] {
+    display = block;
+    border-radius: 50px !important;
+    margin = 0 auto;
+    transform: scale(0.975);
+    position: relative;
+    top: -10px;
+}
