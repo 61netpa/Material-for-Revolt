@@ -1,7 +1,7 @@
 @import url("https://github.com/61netpa/Revolt-Material/raw/refs/heads/main/files/google-sans.css");
 
 div[class^="MessageBox__Base-sc-jul4fa-0"] {
-    display: block;
+    display = block;
     border-radius: 50px !important;
     margin = 0 auto;
     transform: scale(0.975);
