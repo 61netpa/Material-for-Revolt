@@ -1,7 +1,7 @@
 @import url("https://github.com/61netpa/Revolt-Material/raw/refs/heads/main/files/google-sans.css");
 
 div[class^="MessageBox__Base-sc-jul4fa-0"] {
-    display = block;
+    display: block;
     border-radius: 50px !important;
     margin = 0 auto;
     transform: scale(0.975);
@@ -10,17 +10,17 @@ div[class^="MessageBox__Base-sc-jul4fa-0"] {
 }
 
 div[class^="_sidebar_t7t23_39"] {
+    display: block;
     flex: 0;
     max-width: 240px;
 }
 
 div[class^="_scrollbox_t7t23_50"] {
     width: inherit;
-    --scrollbar-width: 6px;
+    scrollbar-width: 6px;
 }
 
 div[class^="_container_t7t23_46"] {
-    width: 240px;
     margin: 0;
     padding: 60px 0 40px;
 }
