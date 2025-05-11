@@ -2,10 +2,9 @@
 
 .MessageBox__Base-sc-jul4fa-0 {
     border-radius: 50px !important;
-    margin = 0 auto;
+    top: -10px;
     transform: scale(0.975);
     position: relative;
-    top: -10px;
 }
 
 ._sidebar_t7t23_39 {
