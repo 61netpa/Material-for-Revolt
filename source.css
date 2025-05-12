@@ -23,6 +23,8 @@
 ._contentcontainer_t7t23_62 {
     min-width: 0px !important;
     max-width: 1600px !important;
+    width: 80% !important;
+    margin-left: 10%;
 }
 
 ._closeButton_t7t23_240 {
@@ -35,6 +37,10 @@
 
 ._item_1avxi_1 {
     transition: background-color .3s ease
+}
+
+[class*=MessageBase-sc-1s9ehlg-0] {
+    border-radius: 30px !important;
 }
 
 [class*=MessageBase-sc-1s9ehlg-0] {
