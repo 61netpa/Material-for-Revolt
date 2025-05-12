@@ -1,11 +1,20 @@
 @import url("https://github.com/61netpa/Revolt-Material/raw/refs/heads/main/files/google-sans.css");
 
+:root {
+  --font: "Google Sans", sans-serif !important;
+}
+
 .MessageBox__Base-sc-jul4fa-0 {
     border-radius: 50px !important;
+    position: relative;
     top: -10px;
     transform: scale(0.975);
     position: relative;
 }
+
+.sc-dmlqKv.iBmOin {
+    font-size: 110%;
+} 
 
 ._sidebar_t7t23_39 {
     max-width: 240px;
@@ -18,6 +27,14 @@
 
 ._closeButton_t7t23_240 {
     border: none !important;
+}
+
+._content_1avxi_40 {
+    font-weight: 500 !important;
+}
+
+._item_1avxi_1 {
+    transition: background-color .3s ease
 }
 
 [class*=MessageBase-sc-1s9ehlg-0] {
