@@ -41,6 +41,10 @@
     transition: background-color .3s ease
 }
 
+.ServerSidebar__ServerList-sc-1lca5oe-1.cJgFyc {
+    background: var(--primary-background);
+}
+
 [class*=MessageBase-sc-1s9ehlg-0] {
     border-radius: 30px !important;
 }
