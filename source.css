@@ -1,4 +1,5 @@
-@import url("https://github.com/61netpa/Revolt-Material/raw/refs/heads/main/files/google-sans.css");
+@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/fonts/google-sans.css"); 
+/* I currently don't know how to fix the fonts not loading issue so for now it will be using the Discord version's font file */
 
 :root {
   --font: "Google Sans", sans-serif !important;
