@@ -43,8 +43,18 @@
 
 .ServerSidebar__ServerList-sc-1lca5oe-1.cJgFyc {
     background: var(--primary-background);
+    scrollbar-width: none;
 }
 
-[class*=MessageBase-sc-1s9ehlg-0] {
+.SidebarBase__GenericSidebarList-sc-1dma6vq-2.gaQhZQ{
+    background: var(--primary-background);
+    scrollbar-width: none;
+}
+
+.SidebarBase__GenericSidebarBase-sc-1dma6vq-1.dUCGFk {
+    background: var(--primary-background);
+}
+
+[class *= MessageBase-sc-1s9ehlg-0] {
     border-radius: 30px !important;
 }
