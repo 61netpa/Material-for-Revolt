@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.sc-dmlqKv.iBmOin {
+.sc-dmlqKv {
     font-size: 110%;
 } 
 
@@ -41,20 +41,24 @@
     transition: background-color .3s ease
 }
 
-.ServerSidebar__ServerList-sc-1lca5oe-1.cJgFyc {
+.ServerSidebar__ServerList-sc-1lca5oe-1 {
     background: var(--primary-background);
     scrollbar-width: none;
 }
 
-.SidebarBase__GenericSidebarList-sc-1dma6vq-2.gaQhZQ{
+.SidebarBase__GenericSidebarList-sc-1dma6vq-2 {
     background: var(--primary-background);
     scrollbar-width: none;
 }
 
-.SidebarBase__GenericSidebarBase-sc-1dma6vq-1.dUCGFk {
+.SidebarBase__GenericSidebarBase-sc-1dma6vq-1 {
     background: var(--primary-background);
 }
 
-[class *= MessageBase-sc-1s9ehlg-0] {
+.MemberList__ListCategory-sc-1bwlier-0 {
+    background: var(--primary-background);
+}
+
+.MessageBase-sc-1s9ehlg-0 {
     border-radius: 30px !important;
 }
