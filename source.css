@@ -62,3 +62,18 @@
 .MessageBase-sc-1s9ehlg-0 {
     border-radius: 30px !important;
 }
+
+.TypingIndicator__Base-sc-1jama4m-0 {
+    top: -10px;
+    width: 98%;
+    margin-left: 15px;
+}
+
+.TypingIndicator__Base-sc-1jama4m-0 > div {
+    background-color: transparent !important;
+    backdrop-filter: blur(0px) !important;
+}
+
+.MessageArea__Area-sc-1q4cka6-0 > div {
+    padding-bottom: 36px;
+}
