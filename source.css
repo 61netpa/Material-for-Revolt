@@ -2,7 +2,7 @@
 /* I currently don't know how to fix the fonts not loading issue so for now it will be using the Discord version's font file */
 
 :root {
-  --font: "Google Sans", sans-serif !important;
+    --font: "Google Sans", sans-serif !important;
 }
 
 .MessageBox__Base-sc-jul4fa-0 {
@@ -70,10 +70,24 @@
 }
 
 .TypingIndicator__Base-sc-1jama4m-0 > div {
-    background-color: transparent !important;
+    background-color: var(--primary-background);
     backdrop-filter: blur(0px) !important;
 }
 
 .MessageArea__Area-sc-1q4cka6-0 > div {
     padding-bottom: 36px;
+}
+
+.JumpToBottom__Bar-sc-v9kqir-0 {
+    display: flex;
+    top: 5px;
+    border-radius: 0 0 0 0;
+    z-index: 2;
+    justify-content: center; 
+    align-items: center;
+}
+
+.JumpToBottom__Bar-sc-v9kqir-0 > div {
+    border-radius: 50px;
+    width: 40%;
 }
