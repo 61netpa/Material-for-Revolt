@@ -71,6 +71,7 @@
 .TypingIndicator__Base-sc-1jama4m-0 > div {
     background-color: var(--primary-background);
     backdrop-filter: blur(0px) !important;
+    z-index: 1;
 }
 
 .MessageArea__Area-sc-1q4cka6-0 {
