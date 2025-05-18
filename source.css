@@ -121,3 +121,11 @@
     width: 36px;
     height: 36px;
 }
+
+._item_1avxi_1._compact_1avxi_19 {
+    border-radius: 50px;
+}
+
+._item_1avxi_1[data-active=true] {
+    background-color: color-mix(in srgb, var(--accent) 35%, transparent);
+}
