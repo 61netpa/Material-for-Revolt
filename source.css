@@ -94,10 +94,6 @@
     width: max-content;
 }
 
-.JumpToBottom__Bar-sc-v9kqir-0.gILwrq .right > span {
-    display: none;
-}
-
 .JumpToBottom__Bar-sc-v9kqir-0.ggHcXn {
     display: flex;
     top: -75px;
@@ -117,7 +113,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.JumpToBottom__Bar-sc-v9kqir-0.ggHcXn > div > div:not(.right) {
+.JumpToBottom__Bar-sc-v9kqir-0.gILwrq .right > span, .JumpToBottom__Bar-sc-v9kqir-0.ggHcXn > div > div:not(.right) {
     display: none;
 }
 
