@@ -162,6 +162,8 @@
     background-color: color-mix(in srgb, var(--accent) 35%, transparent);
 }
 
-a[href*="/discover"] { /* discovery is filled with femboy ahh type shiii. I want it DEAD! */
+/*
+a[href*="/discover"] 
     display: none;
 }
+*/
