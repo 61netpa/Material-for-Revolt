@@ -148,7 +148,7 @@
     height: 56px;
     margin-right: 20px;
     background-color: var(--accent);
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
 }
 
 .JumpToBottom__Bar-sc-v9kqir-0.gILwrq .right > span, .JumpToBottom__Bar-sc-v9kqir-0.ggHcXn > div > div:not(.right) {
