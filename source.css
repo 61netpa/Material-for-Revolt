@@ -151,6 +151,10 @@
     color: rgb(255, 255, 255);
 }
 
+.JumpToBottom__Bar-sc-v9kqir-0.ggHcXn .right {
+    flex-direction: row-reverse;
+}
+
 .JumpToBottom__Bar-sc-v9kqir-0.gILwrq .right > span, .JumpToBottom__Bar-sc-v9kqir-0.ggHcXn > div > div:not(.right) {
     display: none;
 }
