@@ -63,21 +63,41 @@
 }
 
 .MessageBase-sc-1s9ehlg-0 {
+    background-color: rgb(33, 35, 38);
     border-radius: 18px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 68px;
-    margin-right: 10px; 
+    margin-left: 78px;
+    margin-right: 10px;
 }
 
 .MessageBase__MessageInfo-sc-1s9ehlg-1 {
-    width: 40px;
-    height: 40px;
-    left: -50px;
+    left: -60px;
     position: relative;
 }
 
+.MessageBase__MessageInfo-sc-1s9ehlg-1:not(:has(time)) {
+    left: -50px;
+    width: 40px;
+    height: 40px;
+}
+
+.MessageBase__MessageInfo-sc-1s9ehlg-1 > div {
+    width: 50px;
+}
+
 .MessageBase__MessageContent-sc-1s9ehlg-2 {
-    left: -25px;
+    left: -30px;
+}
+
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) {
+    .MessageBase__MessageContent-sc-1s9ehlg-2 {
+        left: -52px;
+    }
+}
+
+.MessageReply__ReplyBase-sc-utzx7-0 {
+    position: relative;
+    left: 18px;
 }
 
 .TypingIndicator__Base-sc-1jama4m-0 {
@@ -163,7 +183,7 @@
 }
 
 /*
-a[href*="/discover"] 
+a[href*="/discover"] {
     display: none;
 }
 */
