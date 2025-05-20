@@ -3,6 +3,7 @@
 
 :root {
     --font: "Google Sans", sans-serif !important;
+    --messagebgcolor: rgb(33, 35, 38);
 }
 
 .MessageBox__Base-sc-jul4fa-0 {
@@ -71,7 +72,7 @@
 }
 
 .MessageBase__MessageInfo-sc-1s9ehlg-1 {
-    left: -60px;
+    left: -75px;
     position: relative;
 }
 
@@ -90,10 +91,59 @@
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) {
-    .sc-jJEKmz {
-        position: relative;
-        left: -23px;
-    }
+    border-radius: 0 0 18px 18px;
+}
+
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .sc-jJEKmz {
+    position: relative;
+    left: -36.25px;
+}
+
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .sc-iBPTik {
+    right: -40px;
+}
+
+.MessageBase-sc-1s9ehlg-0:not(:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time)) .sc-iBPTik {
+    right: -26.75px;
+}
+
+.sc-iBPTik {
+    box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
+    background: rgb(45, 48, 52);
+    border: none;
+    border-radius: 16px;
+}
+
+.sc-iBPTik > div {
+    border-radius: 48px;
+}
+
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
+    content: " ";
+    position: relative;
+    width: 0;
+    height: 0;
+    top: calc(18px / 1.15 * -1);
+    background-color: transparent;
+    border: calc(18px / 2.3) solid transparent;
+    border-bottom-color: var(--messagebgcolor);
+    pointer-events: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) border-color;
+}
+
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before {
+    left: -2px;
+    border-left-color: var(--messagebgcolor);
+}
+
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
+    right: -16px;
+    border-right-color: var(--messagebgcolor);
+}
+
+.MessageEditor__EditorBase-sc-133d9pc-0 {
+    position: relative;
+    left: -37px;
 }
 
 .MessageReply__ReplyBase-sc-utzx7-0 {
