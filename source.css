@@ -90,8 +90,9 @@
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) {
-    .MessageBase__MessageContent-sc-1s9ehlg-2 {
-        left: -52px;
+    .sc-jJEKmz {
+        position: relative;
+        left: -23px;
     }
 }
 
