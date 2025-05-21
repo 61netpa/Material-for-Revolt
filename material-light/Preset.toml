@@ -1,8 +1,8 @@
-slug = "material-dark"
-name = "Material Dark"
+slug = "material-light"
+name = "Material Light"
 creator = "netpa"
 description = "A theme based on Google's Material Design"
-tags = ["Material", "Google", "Dark", "Blue"]
+tags = ["Material", "Google", "Light", "Blue"]
 version = "1.0.0"
 
 [variables]
