@@ -29,8 +29,8 @@ background = "#151619"
 header = "#151619"
 
 [variables.secondary]
-background = "#4D4D4D"
-foreground = "#848484"
+background = "#0E0F11"
+foreground = "#C8C8C8"
 header = "#151619"
 
 [variables.tertiary]
