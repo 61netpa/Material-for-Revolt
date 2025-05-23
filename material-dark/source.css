@@ -47,7 +47,7 @@
 }
 
 ._item_1avxi_1 {
-    transition: background-color .3s ease
+    transition: background-color 250ms var(--cubicbezieranimation) !important;
 }
 
 .ServerSidebar__ServerList-sc-1lca5oe-1 {
