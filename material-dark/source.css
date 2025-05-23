@@ -5,6 +5,7 @@
     --font: "Google Sans", sans-serif !important;
     --messagebgcolor: rgb(33, 35, 38);
     --embedbgcolor: rgb(21, 23, 25);
+    --popoutcolor: rgb(45, 48, 52);
     --mediaradius: calc(18px / 1.75);
 }
 
