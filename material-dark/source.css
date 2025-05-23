@@ -71,7 +71,7 @@
 .MessageBase-sc-1s9ehlg-0 {
     background-color: var(--messagebgcolor);
     border-radius: 18px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms var(--cubicbezieranimation);
     margin-left: 78px;
     margin-right: 10px;
 }
@@ -129,7 +129,7 @@
     border: calc(18px / 2.3) solid transparent;
     border-bottom-color: var(--messagebgcolor);
     pointer-events: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) border-color;
+    transition: border-color 250ms var(--cubicbezieranimation);
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before {
@@ -277,14 +277,15 @@
 
 .context-menu {
     background-color: var(--popoutcolor) !important;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
-    animation: opacity-anim 100ms ease, context-menu-anim 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0) !important;
+    animation: opacity-anim 100ms ease, context-menu-anim 300ms var(--cubicbezieranimation);
     transform-origin: top;
+    backdrop-filter: none !important;
 }
 
 .context-menu > span {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms var(--cubicbezieranimation);
     min-height: 32px;
     padding: 9px 12px !important;
     margin: 0 !important;
@@ -297,17 +298,17 @@
 .LineDivider-sc-135498f-0 {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.125);
-    margin: 8px 0;  
+    margin: 8px 0;
 }
 
 @keyframes opacity-anim {
-  from {
-    opacity: 0;
-  }
+    from {
+        opacity: 0;
+    }
 }
 
 @keyframes context-menu-anim {
-  from {
-    transform: scale(1, 0.5);
-  }
+    from {
+        transform: scale(1, 0.5);
+    }
 }
