@@ -67,7 +67,7 @@
 }
 
 .MessageBase-sc-1s9ehlg-0 {
-    background-color: rgb(33, 35, 38);
+    background-color: var(--messagebgcolor);
     border-radius: 18px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 78px;
@@ -122,7 +122,7 @@
     position: relative;
     width: 0;
     height: 0;
-    top: calc(18px / 1.15 * -1);
+    top: calc(18px / 1.125 * -1);
     background-color: transparent;
     border: calc(18px / 2.3) solid transparent;
     border-bottom-color: var(--messagebgcolor);
@@ -133,6 +133,18 @@
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before {
     left: -2px;
     border-left-color: var(--messagebgcolor);
+}
+
+.MessageBase-sc-1s9ehlg-0:hover + .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before, .MessageBase-sc-1s9ehlg-0:hover + .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
+    border-bottom-color: var(--hover);
+}
+
+.MessageBase-sc-1s9ehlg-0:hover + .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before {
+    border-left-color: var(--hover);
+}
+
+.MessageBase-sc-1s9ehlg-0:hover + .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
+    border-right-color: var(--hover);
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
@@ -259,4 +271,37 @@
 
 ._item_1avxi_1[data-active=true] {
     background-color: color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.context-menu {
+    background-color: var(--popoutcolor) !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    animation: opacity-anim 100ms ease, context-menu-anim 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: top;
+}
+
+.context-menu > span {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    min-height: 32px;
+    padding: 9px 12px !important;
+    margin: 0 !important;
+}
+
+.LineDivider-sc-135498f-0 {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.125);
+    margin: 8px 0;  
+}
+
+@keyframes opacity-anim {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes context-menu-anim {
+  from {
+    transform: scale(1, 0.5);
+  }
 }
