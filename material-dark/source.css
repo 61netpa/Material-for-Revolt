@@ -7,6 +7,7 @@
     --embedbgcolor: rgb(21, 23, 25);
     --popoutcolor: rgb(45, 48, 52);
     --serverbarselectedcolor: rgb(255, 255, 255);
+    --actionbarhovercolor: rgba(255, 255, 255, 0.075);
     --mediaradius: calc(18px / 1.75);
     --cubicbezieranimation: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -270,6 +271,14 @@
 
 .Actions-sc-1d91xkm-4 {
     background: var(--secondary-header)
+}
+
+.sc-fubCzh {
+    border-radius: 50px;
+}
+
+.sc-fubCzh:hover {
+    background-color: var(--actionbarhovercolor);
 }
 
 ._item_1avxi_1[data-active=true] {
