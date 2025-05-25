@@ -277,8 +277,8 @@
 
 .context-menu {
     background-color: var(--popoutcolor) !important;
-    border-radius: 8px !important;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0) !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0) ;
     animation: opacity-anim 100ms ease, context-menu-anim 300ms var(--cubicbezieranimation);
     transform-origin: top;
     backdrop-filter: none !important;
@@ -299,6 +299,19 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.125);
     margin: 8px 0;
+}
+
+._friend_sd6wo_33 {
+    transition: background-color .2s ease;
+    border-radius: 18px;
+}
+
+._friend_sd6wo_33:hover {
+    background-color: var(--hover);
+}
+
+._button_sd6wo_44 {
+    background-color: transparent;
 }
 
 @keyframes opacity-anim {
