@@ -338,6 +338,10 @@
     fill: var(--serverbarselectedcolor);
 }
 
+.Base-sc-j9ukbi-0 {
+    border-radius: 16px;
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
