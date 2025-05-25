@@ -6,6 +6,7 @@
     --messagebgcolor: rgb(33, 35, 38);
     --embedbgcolor: rgb(21, 23, 25);
     --popoutcolor: rgb(45, 48, 52);
+    --serverbarselectedcolor: rgb(255, 255, 255);
     --mediaradius: calc(18px / 1.75);
     --cubicbezieranimation: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -312,6 +313,20 @@
 
 ._button_sd6wo_44 {
     background-color: transparent;
+}
+
+.SwooshWrapper-sc-176t3v5-1 {
+    transform: rotate(180deg);
+    left: -33px;
+    top: -37px;
+}
+
+.SwooshWrapper-sc-176t3v5-1 > svg {
+    width: 30px;
+}
+
+.SwooshWrapper-sc-176t3v5-1 > svg > path {
+    fill: var(--serverbarselectedcolor);
 }
 
 @keyframes opacity-anim {
