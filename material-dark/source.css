@@ -13,17 +13,6 @@
     --cubicbezieranimation: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-:root {
-    --messagebgcolor: rgb(33, 35, 38);
-    --embedbgcolor: rgb(21, 23, 25);
-    --mediaradius: calc(18px / 1.75);
-    --serverbarselectedcolor: rgb(255, 255, 255);
-    --actionbarhovercolor: rgba(255, 255, 255, 0.075);
-    --tippybgcolor: rgba(97, 97, 97, 0.9);
-    --popoutcolor: rgb(45, 48, 52);
-    --cubicbezieranimation: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .MessageBox__Base-sc-jul4fa-0 {
     border-radius: 50px !important;
     position: relative;
