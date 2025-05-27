@@ -7,8 +7,12 @@
     --embedbgcolor: rgb(21, 23, 25);
     --popoutcolor: rgb(45, 48, 52);
     --serverbarselectedcolor: rgb(255, 255, 255);
-    --actionbarhovercolor: rgba(255, 255, 255, 0.075);
+    --actionbarbuttonhovercolor: rgba(255, 255, 255, 0.075);
+    --actionbarbgcolor: rgb(45, 48, 52);
+    --dividerlinecolor: rgba(255, 255, 255, 0.125);
+    --contextmenubuttonhovercolor: rgb(61, 63, 67);
     --tippybgcolor: rgba(97, 97, 97, 0.9);
+    --tippytextcolor: rgb(246, 246, 246);
     --mediaradius: calc(18px / 1.75);
     --cubicbezieranimation: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -117,7 +121,7 @@
 
 .sc-iBPTik {
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
-    background: rgb(45, 48, 52);
+    background: var(--actionbarbgcolor);
     border: none;
     border-radius: 16px;
 }
@@ -279,7 +283,7 @@
 }
 
 .sc-fubCzh:hover {
-    background-color: var(--actionbarhovercolor);
+    background-color: var(--actionbarbuttonhovercolor);
 }
 
 ._item_1avxi_1[data-active=true] {
@@ -303,12 +307,12 @@
 }
 
 .context-menu > span:not([data-disabled=true]):hover, .context-menu .main > span:not([data-disabled=true]):hover {
-    background-color: rgb(61, 63, 67) !important;
+    background-color: var(--contextmenubuttonhovercolor) !important;
 }
 
 .LineDivider-sc-135498f-0 {
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.125);
+    background-color: var(--dividerlinecolor);
     margin: 8px 0;
 }
 
@@ -344,7 +348,9 @@
 }
 
 .tippy-box {
+    border-radius: 8px;
     background-color: var(--tippybgcolor);
+    color: var(--tippytextcolor);
 }
 
 .tippy-arrow {
