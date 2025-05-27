@@ -41,7 +41,6 @@
 }
 
 .Container-sc-1d91xkm-1 {
-    border-radius: 18px;
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
 }
 
@@ -355,6 +354,14 @@
 
 .tippy-arrow {
     display: none;
+}
+
+._header_kup3j_8 {
+    border-radius: 18px 18px 0 0;
+}
+
+._content_kup3j_90 {
+    border-radius: 0 0 18px 18px;
 }
 
 @keyframes opacity-anim {
