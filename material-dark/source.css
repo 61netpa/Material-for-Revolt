@@ -19,7 +19,14 @@
 }
 
 .MessageBox__Base-sc-jul4fa-0 {
-    border-radius: 50px !important;
+    border-radius: calc(48px / 2) !important;
+    position: relative;
+    top: -10px;
+    width: 98%;
+    margin-left: 15px;
+}
+
+.FilePreview__Container-sc-znkm6h-0 {
     position: relative;
     top: -10px;
     width: 98%;
@@ -124,6 +131,7 @@
     background: var(--actionbarbgcolor);
     border: none;
     border-radius: 16px;
+    transition: width 250ms var(--cubicbezieranimation);
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
