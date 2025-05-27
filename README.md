@@ -4,9 +4,9 @@ A theme made for [Revolt](https://revolt.chat/) based on [CapnKitten's Material 
 # Previews
 <details>
   <summary>Material Dark</summary>
-  ![material-dark-preview](https://raw.githubusercontent.com/61netpa/Material-for-Revolt/refs/heads/main/files/previews/material-dark.png)
+  ![material-dark-preview](files/previews/material-dark.png)
 </details>
 <details>
   <summary>Material Light</summary>
-  ![material-light-preview](https://raw.githubusercontent.com/61netpa/Material-for-Revolt/refs/heads/main/files/previews/material-light.png)
+  ![material-light-preview](files/previews/material-light.png)
 </details>
