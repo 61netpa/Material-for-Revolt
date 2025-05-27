@@ -14,6 +14,7 @@
     --tippybgcolor: rgba(97, 97, 97, 0.9);
     --tippytextcolor: rgb(246, 246, 246);
     --mediaradius: calc(18px / 1.75);
+    --pendingrequestbgcolor: rgb(39, 39, 42);
     --cubicbezieranimation: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -362,6 +363,11 @@
 
 ._content_kup3j_90 {
     border-radius: 0 0 18px 18px;
+}
+
+._pending_sd6wo_95 {
+    border-radius: 18px;
+    background: var(--pendingrequestbgcolor);
 }
 
 @keyframes opacity-anim {
