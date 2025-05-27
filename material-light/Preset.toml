@@ -30,7 +30,7 @@ header = "#FAFAFA"
 
 [variables.secondary]
 background = "#E8E8E8"
-foreground = "#C8C8C8"
+foreground = "#323339"
 header = "#FAFAFA"
 
 [variables.tertiary]
