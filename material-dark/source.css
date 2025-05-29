@@ -407,6 +407,10 @@
     background: var(--pendingrequestbgcolor);
 }
 
+._entry_kup3j_140 {
+    transition: background-color 250ms var(--cubicbezieranimation);
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
