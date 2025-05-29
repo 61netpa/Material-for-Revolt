@@ -13,7 +13,9 @@
     --contextmenubuttonhovercolor: rgb(229, 229, 229);
     --tippybgcolor: rgba(97, 97, 97, 0.9);
     --tippytextcolor: rgb(197, 197, 197);
+    --pendingrequestbgcolor: rgb(220, 220, 220);
     --mediaradius: calc(18px / 1.75);
+    --messageboxradius: calc(48px / 2);
     --cubicbezieranimation: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -23,6 +25,40 @@
     top: -10px;
     width: 98%;
     margin-left: 15px;
+}
+
+.FilePreview__Container-sc-znkm6h-0 {
+    border-radius: var(--messageboxradius) var(--messageboxradius) 0 0;
+    position: relative;
+    top: -10px;
+    width: 98%;
+    margin-left: 15px;
+}
+
+.FilePreview__Container-sc-znkm6h-0:before, .FilePreview__Container-sc-znkm6h-0:after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: calc(18px / 0.95* -1);
+    background-color: transparent;
+    border: calc(18px / 1.8) solid transparent;
+    border-top-color: var(--message-box);
+    pointer-events: none;
+}
+
+.FilePreview__Container-sc-znkm6h-0:before {
+    border-right-color: var(--message-box);
+    right: -0.01px;
+}
+
+.FilePreview__Container-sc-znkm6h-0:after {
+    border-left-color: var(--message-box);
+    left: -0.3px;
+}
+
+.FilePreview__PreviewBox-sc-znkm6h-6, .FilePreview__EmptyEntry-sc-znkm6h-5 {
+    border-radius: 18px;
 }
 
 .sc-dmlqKv {
@@ -41,7 +77,6 @@
 }
 
 .Container-sc-1d91xkm-1 {
-    border-radius: 18px;
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
 }
 
@@ -355,6 +390,19 @@
 
 .tippy-arrow {
     display: none;
+}
+
+._header_kup3j_8 {
+    border-radius: 18px 18px 0 0;
+}
+
+._content_kup3j_90 {
+    border-radius: 0 0 18px 18px;
+}
+
+._pending_sd6wo_95 {
+    border-radius: 18px;
+    background: var(--pendingrequestbgcolor);
 }
 
 @keyframes opacity-anim {
