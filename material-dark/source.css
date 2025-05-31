@@ -143,8 +143,17 @@
     width: calc(100% - 40px);
 }
 
+.SystemMessage__SystemContent-sc-1au0o14-0 {
+    left: -55px;
+    position: relative;
+}
+
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) {
     border-radius: 0 0 18px 18px;
+}
+
+.MessageBase-sc-1s9ehlg-0:has(.SystemMessage__SystemContent-sc-1au0o14-0) {
+    border-radius: 18px !important;
 }
 
 .sc-iBPTik {
@@ -156,7 +165,7 @@
     transition: width 250ms var(--cubicbezieranimation);
 }
 
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
     content: " ";
     position: relative;
     width: 0;
@@ -192,11 +201,6 @@
 .EmbedInvite__EmbedInviteBase-sc-154n8c6-0 {
     background-color: var(--embedbgcolor);
     border-radius: var(--mediaradius);
-}
-
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .Row-sc-smhijf-0 {
-    position: relative;
-    left: -70px;
 }
 
 ._attachment_197qa_1 {
@@ -293,7 +297,7 @@
 }
 
 .Actions-sc-1d91xkm-4 {
-    background: var(--secondary-header);
+    background: var(--secondary-header)
 }
 
 .sc-fubCzh {
