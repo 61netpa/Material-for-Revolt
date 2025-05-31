@@ -178,12 +178,12 @@
     transition: border-color 250ms var(--cubicbezieranimation);
 }
 
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before {
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before {
     left: -2px;
     border-left-color: var(--messagebgcolor);
 }
 
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
     right: 34px;
     border-right-color: var(--messagebgcolor);
 }
