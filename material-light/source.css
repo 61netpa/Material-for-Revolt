@@ -93,6 +93,10 @@
     transition: background-color 250ms var(--CubicBezierAnimation) !important;
 }
 
+._item_1avxi_1 div {
+    transition: color 50ms var(--CubicBezierAnimation);
+}
+
 .ServerSidebar__ServerList-sc-1lca5oe-1 {
     background: var(--primary-background);
     scrollbar-width: none;
