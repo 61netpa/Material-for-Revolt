@@ -14,6 +14,7 @@
     --TippyBackgroundColor: rgba(97, 97, 97, 0.9);
     --TippyTextColor: rgb(197, 197, 197);
     --PendingRequestsBackgroundColor: rgb(220, 220, 220);
+    --ReactionBorderColor: rgba(0, 0, 0, 0.195);
     --MediaBorderRadius: calc(18px / 1.75);
     --MessageBoxBorderRadius: calc(48px / 2);
     --CubicBezierAnimation: cubic-bezier(0.4, 0, 0.2, 1);
@@ -395,6 +396,12 @@
 
 ._entry_kup3j_140 {
     transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+.sc-jSgvzq {
+    background: transparent;
+    border-color: var(--ReactionBorderColor);
+    border-radius: 8px;
 }
 
 @keyframes opacity-anim {
