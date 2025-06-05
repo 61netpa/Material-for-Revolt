@@ -467,6 +467,7 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
 ._memberView_yllm8_99 {
     background: transparent !important;
 }
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
