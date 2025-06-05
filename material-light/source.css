@@ -15,6 +15,10 @@
     --TippyTextColor: rgb(197, 197, 197);
     --PendingRequestsBackgroundColor: rgb(220, 220, 220);
     --ReactionBorderColor: rgba(0, 0, 0, 0.195);
+    --ChannelCreatorTypeBackgroundColor: rgb(235, 235, 235);
+    --ChannelCreatorTypeSelectedButtonBackgroundColor: rgb(204, 204, 204);
+    --ChannelCreatorTypeSelectedButtonIndicatorColor: rgb(85, 123, 226);
+    --InputBottomBorderColor: rgb(168, 168, 168);
     --MediaBorderRadius: calc(18px / 1.75);
     --MessageBoxBorderRadius: calc(48px / 2);
     --CubicBezierAnimation: cubic-bezier(0.4, 0, 0.2, 1);
@@ -160,7 +164,6 @@
 .MessageBase-sc-1s9ehlg-0:has(.SystemMessage__SystemContent-sc-1au0o14-0) {
     border-radius: 18px !important;
 }
-
 
 .sc-iBPTik {
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
@@ -406,6 +409,39 @@
     background: transparent;
     border-color: var(--ReactionBorderColor);
     border-radius: 8px;
+}
+
+.Categories__KanbanList-sc-6h8idg-1 .inner {
+    border-radius: 18px;
+}
+
+.Base-sc-1xuer3d-0 {
+    border: none;
+    border-radius: 18px;
+}
+
+[selected = true].Base-sc-1xuer3d-0 {
+    background: var(--ChannelCreatorTypeSelectedButtonBackgroundColor);
+}
+
+[selected = true].Base-sc-1xuer3d-0 > .RadioCircle-sc-1xuer3d-1 {
+    border-color: var(--ChannelCreatorTypeSelectedButtonIndicatorColor);
+}
+
+[selected = true].Base-sc-1xuer3d-0 > .RadioCircle-sc-1xuer3d-1 > svg {
+    color: var(--ChannelCreatorTypeSelectedButtonIndicatorColor);
+}
+
+.Column-sc-mmjmg6-0:has(> .Base-sc-1xuer3d-0) {
+    background: var(--ChannelCreatorTypeBackgroundColor);
+    border-radius: 18px;
+    padding: 8px;
+}
+
+.InputBox-sc-13s1218-0 {
+    border-radius: 4px 4px 0 0;
+    box-shadow: inset 0 -1px 0 0 var(--InputBottomBorderColor);
+    transition: background-color 100ms var(--CubicBezierAnimation);
 }
 
 @keyframes opacity-anim {
