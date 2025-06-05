@@ -448,6 +448,25 @@
     box-shadow: inset 0 -1px 0 0 var(--accent);
 }
 
+div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
+    background: var(--ChannelCreatorTypeBackgroundColor);
+    border-radius: 18px;
+    padding: 8px !important;
+}
+
+._member_yllm8_53 {
+    background: transparent !important;
+    transition: background-color 100ms var(--CubicBezierAnimation);
+    border-radius: 18px;
+}
+
+._member_yllm8_53:hover {
+    background-color: var(--ContextMenuButtonBackgroundHoverColor) !important;
+}
+
+._memberView_yllm8_99 {
+    background: transparent !important;
+}
 @keyframes opacity-anim {
     from {
         opacity: 0;
