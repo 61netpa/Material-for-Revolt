@@ -19,6 +19,8 @@
     --ChannelCreatorTypeSelectedButtonBackgroundColor: rgb(204, 204, 204);
     --ChannelCreatorTypeSelectedButtonIndicatorColor: rgb(85, 123, 226);
     --InputBottomBorderColor: rgb(168, 168, 168);
+    --InviteBottomBorderColor: rgb(243, 243, 244);
+    --InviteHoverBorderColor: rgb(214, 214, 217);
     --MediaBorderRadius: calc(18px / 1.75);
     --MessageBoxBorderRadius: calc(48px / 2);
     --CubicBezierAnimation: cubic-bezier(0.4, 0, 0.2, 1);
@@ -176,6 +178,7 @@
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
     content: " ";
+    z-index: 1;
     position: relative;
     width: 0;
     height: 0;
@@ -464,12 +467,27 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     background-color: var(--ContextMenuButtonBackgroundHoverColor) !important;
 }
 
-._memberView_yllm8_99, .Checkmark-sc-1c2l8gq-6 {
+._memberView_yllm8_99, ._memberView_yllm8_99 .Checkmark-sc-1c2l8gq-6, ._invite_yllm8_51 {
     background: transparent !important;
 }
 
 .Base-sc-1c2l8gq-0:hover {
     background-color: var(--ContextMenuButtonBackgroundHoverColor);
+}
+
+._invite_yllm8_51 {
+    box-shadow: 0 1px 0 0 var(--InviteBottomBorderColor);
+    height: 62px;
+    line-height: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+._invite_yllm8_51:hover {
+    background-color: var(--ChannelCreatorTypeBackgroundColor) !important;
+    border: var(--InviteHoverBorderColor) solid 1px;
+    transition: background-color 250ms var(--CubicBezierAnimation), border 250ms var(--CubicBezierAnimation);
 }
 
 @keyframes opacity-anim {
