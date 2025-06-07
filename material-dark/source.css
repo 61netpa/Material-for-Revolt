@@ -21,6 +21,8 @@
     --InputBottomBorderColor: rgb(74, 74, 74);
     --InviteBottomBorderColor: rgba(255, 255, 255, 0.03);
     --InviteHoverBorderColor: rgb(46, 47, 50);
+    --TimeDividerColor: rgb(43, 45, 49);
+    --TimeDividerTextColor: rgb(173, 174, 180);
     --MediaBorderRadius: calc(18px / 1.75);
     --MessageBoxBorderRadius: calc(48px / 2);
     --CubicBezierAnimation: cubic-bezier(0.4, 0, 0.2, 1);
@@ -309,7 +311,7 @@
 }
 
 .Actions-sc-1d91xkm-4 {
-    background: var(--secondary-header);
+    background: var(--secondary-header)
 }
 
 .sc-fubCzh {
@@ -488,6 +490,24 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     background-color: var(--ChannelCreatorTypeBackgroundColor) !important;
     border: var(--InviteHoverBorderColor) solid 1px;
     transition: background-color 250ms var(--CubicBezierAnimation), border 250ms var(--CubicBezierAnimation);
+}
+
+.Base-sc-1kllx7r-0 {
+    justify-content: center; 
+    align-items: center;
+    border-top: thin solid var(--TimeDividerColor);
+    top: -4px;
+    margin-bottom: .5rem;
+    margin-top: 1.5rem;
+}
+
+.Base-sc-1kllx7r-0 time {
+    border-radius: 18px;
+    background: var(--TimeDividerColor);
+    height: 28px;
+    text-align: center;
+    color: var(--TimeDividerTextColor);
+    padding: 8px 9px 0 9px
 }
 
 @keyframes opacity-anim {
