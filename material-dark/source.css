@@ -469,7 +469,7 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     background-color: var(--ContextMenuButtonBackgroundHoverColor) !important;
 }
 
-._memberView_yllm8_99, ._memberView_yllm8_99 .Checkmark-sc-1c2l8gq-6, ._invite_yllm8_51 {
+._memberView_yllm8_99, ._memberView_yllm8_99 .Checkmark-sc-1c2l8gq-6, ._invite_yllm8_51, ._ban_yllm8_52 {
     background: transparent !important;
 }
 
@@ -508,6 +508,18 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     text-align: center;
     color: var(--TimeDividerTextColor);
     padding: 8px 9px 0 9px
+}
+
+._ban_yllm8_52 {
+    height: 62px;
+    line-height: 20px;
+    font-size: 16px;
+    border-radius: 18px;
+}
+
+._ban_yllm8_52:hover {
+    background-color: var(--ChannelCreatorTypeBackgroundColor) !important;
+    transition: background-color 250ms var(--CubicBezierAnimation);
 }
 
 @keyframes opacity-anim {
