@@ -494,6 +494,8 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     transition: background-color 250ms var(--CubicBezierAnimation), border 250ms var(--CubicBezierAnimation);
 }
 
+/* Between these are not completely done yet. */
+
 .Base-sc-1kllx7r-0 {
     justify-content: center; 
     align-items: center;
@@ -511,6 +513,12 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     color: var(--TimeDividerTextColor);
     padding: 8px 9px 0 9px
 }
+
+.Unread-sc-1kllx7r-1 {
+    margin-left: 0;
+}
+
+/* Between these are not completely done yet. */
 
 ._ban_yllm8_52 {
     height: 62px;
