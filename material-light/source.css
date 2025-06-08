@@ -19,6 +19,7 @@
     --ChannelCreatorTypeSelectedButtonBackgroundColor: rgb(204, 204, 204);
     --ChannelCreatorTypeSelectedButtonIndicatorColor: rgb(85, 123, 226);
     --InputBottomBorderColor: rgb(168, 168, 168);
+    --InputBackgroundColor: rgb(227, 227, 227);
     --InviteBottomBorderColor: rgb(243, 243, 244);
     --InviteHoverBorderColor: rgb(214, 214, 217);
     --TimeDividerColor: rgb(218, 219, 221);
@@ -523,6 +524,44 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     transition: background-color 250ms var(--CubicBezierAnimation);
 }
 
+.Base-sc-1c6g74-0 {
+    border-radius: 18px;
+    background: var(--PopoutColor);
+    z-index: 3;
+    bottom: 20px;
+    right: 35px;
+    animation: bottom-pop-out 400ms var(--CubicBezierAnimation);
+}
+
+.CategoryBar-sc-1c6g74-6 {
+    background: var(--PopoutColor);
+}
+
+.Parent-sc-1c6g74-2 {
+    flex-direction: row-reverse
+}
+
+.Base-sc-1m0owfd-0 {
+    height: 48px;
+}
+
+.sc-dlfnuX {
+    height: 28px !important;
+    width: 28px !important;
+}
+
+.Groups-sc-1c6g74-3 {
+    background-color: var(--EmbedBackgroundColor);
+}
+
+.Base-sc-1c6g74-0 .InputBox-sc-13s1218-0 {
+    height: 40px;
+    margin: 0;
+    box-shadow: none;
+    background-color: var(--InputBackgroundColor);
+    border-radius: 20px;
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
@@ -533,4 +572,11 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     from {
         transform: scale(1, 0.5);
     }
+}
+
+@keyframes bottom-pop-out {
+  from {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
 }
