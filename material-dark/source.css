@@ -608,7 +608,7 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     border-radius: 20px;
 }
 
-._button_1avxi_73 {
+._compact_1avxi_19 ._button_1avxi_73 {
     left: -205px;
     position: relative;
 }
@@ -631,8 +631,8 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
 }
 
 @keyframes bottom-pop-out {
-  from {
-    transform: translate(0, 20px);
-    opacity: 0;
-  }
+    from {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
 }
