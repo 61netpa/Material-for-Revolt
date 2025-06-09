@@ -570,6 +570,16 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     border-radius: 20px;
 }
 
+._button_1avxi_73 {
+    left: -205px;
+    position: relative;
+}
+
+._alert_1avxi_81 {
+    height: 10px;
+    width: 10px;
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
