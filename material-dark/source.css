@@ -228,6 +228,11 @@ div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBa
     border-right-color: var(--hover)
 }
 
+.MessageBase__MessageInfo-sc-1s9ehlg-1 .IconBase-sc-igncj4-0 {
+    width: 40px;
+    height: 40px;
+}
+
 .MessageEditor__EditorBase-sc-133d9pc-0 {
     position: relative;
     left: -37px;
