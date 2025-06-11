@@ -26,6 +26,7 @@
     --TimeDividerTextColor: rgb(116, 117, 126);
     --RoleSelectedPermissionIconColor: rgb(255, 255, 255);
     --VoiceCallButtonBackgroundColor: rgb(150, 150, 150);
+    --BlueButtonHoverColor: rgb(127, 161, 255);
     --MediaBorderRadius: calc(18px / 1.75);
     --MessageBoxBorderRadius: calc(48px / 2);
     --CubicBezierAnimation: cubic-bezier(0.4, 0, 0.2, 1);
@@ -307,6 +308,11 @@
     border-radius: 18px;
     background-color: var(--accent);
     height: 36px;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+.Button-sc-wdolxy-0:hover {
+    background-color: var(--BlueButtonHoverColor);
 }
 
 .Button-sc-wdolxy-0.jMjzeh {
