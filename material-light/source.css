@@ -161,6 +161,7 @@
 
 .MessageBase__MessageContent-sc-1s9ehlg-2 {
     left: -30px;
+    z-index: 2;
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .MessageBase__MessageContent-sc-1s9ehlg-2 {
@@ -213,6 +214,18 @@
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
     right: 34px;
     border-right-color: var(--MessageBackgroundColor);
+}
+
+div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before, div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
+    border-bottom-color: var(--hover)
+}
+
+div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before {
+    border-left-color: var(--hover)
+}
+
+div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
+    border-right-color: var(--hover)
 }
 
 .MessageEditor__EditorBase-sc-133d9pc-0 {
@@ -546,6 +559,44 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
 ._ban_yllm8_52:hover {
     background-color: var(--ChannelCreatorTypeBackgroundColor) !important;
     transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+.SwitchContainer-sc-6syyum-0 {
+    height: 30px;
+    padding: 0;
+    border-radius: 18px;
+    background: transparent;
+}
+
+.Switch-sc-6syyum-1 {
+    height: 28px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-right: 1px solid var(--TimeDividerColor);
+}
+
+[selected = true].Switch-sc-6syyum-1 {
+    color: var(--RoleSelectedPermissionIconColor);
+}
+
+[selected = true].Switch-sc-6syyum-1:has(path[d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"]) {
+    background-color: var(--error);
+}
+
+[selected = true].Switch-sc-6syyum-1:has(path[d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"]) {
+    background-color: var(--success);
+}
+
+[selected = true].Switch-sc-6syyum-1:has(path[d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm-1 16H5V5h14v14z"]) {
+    background-color: var(--hover);
+}
+
+.Checkmark-sc-1c2l8gq-6:not([value = true]) {
+    background-color: transparent;
 }
 
 .Base-sc-1c6g74-0 {
