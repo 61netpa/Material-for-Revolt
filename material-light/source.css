@@ -40,6 +40,15 @@
     margin-left: 15px;
 }
 
+.MessageBox__Blocked-sc-jul4fa-1 > div {
+    position: relative;
+    left: 10px;
+}
+
+.MessageBox__Blocked-sc-jul4fa-1 .text {
+    padding: 14px 14px 14px 10px;
+}
+
 .FilePreview__Container-sc-znkm6h-0 {
     border-radius: var(--MessageBoxBorderRadius) var(--MessageBoxBorderRadius) 0 0;
     position: relative;
