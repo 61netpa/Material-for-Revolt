@@ -645,6 +645,10 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     background-color: var(--error);
 }
 
+._friend_sd6wo_33 ._actions_sd6wo_7 ._button_sd6wo_44:hover {
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
