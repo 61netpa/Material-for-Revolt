@@ -688,6 +688,16 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     transition: background-color 250ms var(--CubicBezierAnimation);
 }
 
+.UserShort__BotBadge-sc-1sbe9n1-0 {
+    display: inline-flex;
+    position: relative;
+    border-radius: 8px;
+    align-items: center;
+    height: 16px;
+    padding: 0 4px;
+    top: -3px;
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
