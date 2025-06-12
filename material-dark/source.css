@@ -140,7 +140,7 @@
     background-color: var(--MessageBackgroundColor);
     border-radius: 18px;
     transition: background-color 250ms var(--CubicBezierAnimation);
-    margin-left: 78px;
+    margin-left: 70px;
     margin-right: 10px;
 }
 
@@ -212,7 +212,7 @@
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
-    right: 34px;
+    right: 38px;
     border-right-color: var(--MessageBackgroundColor);
 }
 
@@ -226,6 +226,12 @@ div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBa
 
 div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
     border-right-color: var(--hover)
+}
+
+div[id ^= "01"]:hover {
+    > .MessageBase-sc-1s9ehlg-0 {
+        background-color: var(--hover);
+    }
 }
 
 .MessageBase__MessageInfo-sc-1s9ehlg-1 .IconBase-sc-igncj4-0 {
@@ -275,7 +281,6 @@ div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBa
 }
 
 .MessageArea__Area-sc-1q4cka6-0 {
-    width: 98%;
     margin-bottom: 15px;
 }
 
