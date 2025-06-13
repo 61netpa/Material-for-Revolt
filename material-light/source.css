@@ -64,7 +64,7 @@
     position: absolute;
     width: 0;
     height: 0;
-    bottom: calc(18px / 0.95* -1);
+    bottom: calc(18px / 0.95 * -1);
     background-color: transparent;
     border: calc(18px / 1.8) solid transparent;
     border-top-color: var(--message-box);
@@ -457,6 +457,10 @@ div[id ^= "01"]:hover {
 
 ._content_kup3j_90 {
     border-radius: 0 0 18px 18px;
+}
+
+.Content-sc-1d91xkm-3 {
+    padding: 0;
 }
 
 ._pending_sd6wo_95 {
