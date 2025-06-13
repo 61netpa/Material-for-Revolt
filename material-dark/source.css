@@ -161,7 +161,6 @@
 
 .MessageBase__MessageContent-sc-1s9ehlg-2 {
     left: -30px;
-    z-index: 2;
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .MessageBase__MessageContent-sc-1s9ehlg-2 {
