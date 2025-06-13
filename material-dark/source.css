@@ -27,6 +27,8 @@
     --RoleSelectedPermissionIconColor: rgb(255, 255, 255);
     --VoiceCallButtonBackgroundColor: rgba(255, 255, 255, 0.075);
     --BlueButtonHoverColor: rgb(127, 161, 255);
+    --NewMessagesTextBackgroundColor: rgb(67, 73, 89);
+    --NewMessagesArrowBackgroundColor: rgb(85, 123, 226);
     --MediaBorderRadius: calc(18px / 1.75);
     --MessageBoxBorderRadius: calc(48px / 2);
     --CubicBezierAnimation: cubic-bezier(0.4, 0, 0.2, 1);
@@ -293,9 +295,20 @@ div[id ^= "01"]:hover {
 }
 
 .JumpToBottom__Bar-sc-v9kqir-0.gILwrq > div {
-    border-radius: 50px;
+    border-radius: 28px;
     height: 52px;
     width: max-content;
+    background-color: var(--PopoutColor);
+    gap: 8px;
+    padding: 8px;
+}
+
+.JumpToBottom__Bar-sc-v9kqir-0.gILwrq > div > div:not(.right) {
+    padding: 0 16px;
+    border-radius: 20px;
+    flex: 0 1 auto;
+    background-color: var(--NewMessagesTextBackgroundColor);
+    height: 40px;
 }
 
 .JumpToBottom__Bar-sc-v9kqir-0.ggHcXn {
@@ -326,8 +339,14 @@ div[id ^= "01"]:hover {
 }
 
 .JumpToBottom__Bar-sc-v9kqir-0 .StyledIconBase-ea9ulj-0 {
-    width: 36px;
-    height: 36px;
+    border-radius: 20px;
+    background-color: var(--NewMessagesArrowBackgroundColor);
+    height: 40px;
+    width: 40px;
+}
+
+.JumpToBottom__Bar-sc-v9kqir-0 .StyledIconBase-ea9ulj-0 > path {
+    transform: translate(0.25px, 1px);
 }
 
 .ButtonItem-sc-1ixnesa-0, ._item_1avxi_1 {
