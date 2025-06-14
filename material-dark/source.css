@@ -165,6 +165,15 @@
     left: -30px;
 }
 
+.MessageBase__MessageContent-sc-1s9ehlg-2 .Grid-sc-iv0lk8-0 {
+    width: fit-content;
+    height: fit-content;
+}
+
+.MessageBase__MessageContent-sc-1s9ehlg-2 .Grid-sc-iv0lk8-0 > img {
+    border-radius: var(--MediaBorderRadius);
+}
+
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .MessageBase__MessageContent-sc-1s9ehlg-2 {
     left: -68px;
     flex: 0 0 auto;
