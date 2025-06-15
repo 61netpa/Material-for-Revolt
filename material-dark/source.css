@@ -675,6 +675,11 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     border-top: none;
 }
 
+.Base-sc-1m0owfd-0 > .sc-dlfnuX {
+    width: 28px;
+    height: 28px;
+}
+
 .Groups-sc-1c6g74-3 {
     background-color: var(--EmbedBackgroundColor);
 }
