@@ -199,7 +199,14 @@
     border: none;
     border-radius: 16px;
     right: -26.75px;
-    transition: width 250ms var(--CubicBezierAnimation);
+}
+
+.sc-iBPTik > div:not(.sc-pGacB) {
+    animation: action-bar-button-scale 250ms var(--CubicBezierAnimation);
+}
+
+.sc-iBPTik .sc-fubCzh {
+    animation: action-bar-image-scale 250ms var(--CubicBezierAnimation);
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
@@ -764,5 +771,26 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     from {
         transform: translate(0, 20px);
         opacity: 0;
+    }
+}
+
+@keyframes no-width-start {
+    from {
+        width: 0px;
+    }
+}
+
+@keyframes action-bar-button-scale {
+    from {
+        width: 0;
+    }
+    to {
+        width: 32px;
+    }
+}
+
+@keyframes action-bar-image-scale {
+    from {
+        width: 0;
     }
 }
