@@ -490,7 +490,12 @@ div[type = "user_profile"] .Content-sc-1d91xkm-3 {
 }
 
 ._entry_kup3j_140 {
+    background: transparent;
     transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+._entry_kup3j_140:hover {
+    background-color: var(--hover);
 }
 
 .sc-jSgvzq {
