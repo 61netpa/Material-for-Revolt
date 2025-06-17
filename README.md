@@ -8,8 +8,9 @@ A theme made for [Revolt](https://revolt.chat/) based on [CapnKitten's Material 
   • Chat
   <img src = "files/previews/material-dark-chat.png" alt = "Material Dark Chat Preview" style = "max-width: 100%;">
   • Settings
-  <p></p>
+  <p>
   <img src = "files/previews/material-dark-settings.gif" alt = "Material Dark Settings Preview" style = "max-width: 100%;">
+  </p>
   </h5>
 </details>
 <details>
@@ -18,8 +19,9 @@ A theme made for [Revolt](https://revolt.chat/) based on [CapnKitten's Material 
   • Chat
   <img src = "files/previews/material-light-chat.png" alt = "Material Light Chat Preview" style = "max-width: 100%;">
   • Settings
-  <p></p>
+  <p>
   <img src = "files/previews/material-light-settings.gif" alt = "Material Light Settings Preview" style = "max-width: 100%;">
+  </p>
   </h5>
 </details>
 </h3>
