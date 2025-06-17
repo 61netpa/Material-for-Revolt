@@ -834,12 +834,6 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     }
 }
 
-@keyframes no-width-start {
-    from {
-        width: 0px;
-    }
-}
-
 @keyframes action-bar-button-scale {
     from {
         width: 0;
