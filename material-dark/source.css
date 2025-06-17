@@ -781,6 +781,40 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     font-size: 0.625rem;
 }
 
+._sessions_fwdgs_285 ._session_fwdgs_285 {
+    border-radius: calc(18px / 1.65);
+    margin-bottom: 0;
+    padding: 16px 10px;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+._sessions_fwdgs_285 ._entry_fwdgs_300 {
+    padding: 5px 8px;
+}
+
+._sessions_fwdgs_285 ._session_fwdgs_285:hover {
+    background-color: var(--PendingRequestsBackgroundColor);
+}
+
+._sessions_fwdgs_285 [data-active = true]._entry_fwdgs_300 {
+    color: var(--TippyTextColor) !important;
+    padding: 8px;
+    gap: 16px;
+    background: var(--ChannelCreatorTypeBackgroundColor);
+    > ._label_fwdgs_341 {
+        position: relative;
+        font-weight: 400;
+        font-size: inherit;
+        margin-bottom: -8px;
+        left: 8px;
+        top: 4px;
+    }
+}
+
+._sessions_fwdgs_285 > hr {
+    margin: 0;
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
