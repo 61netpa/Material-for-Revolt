@@ -30,6 +30,7 @@
     --NewMessagesTextBackgroundColor: rgb(207, 215, 236);
     --NewMessagesArrowBackgroundColor: rgb(85, 123, 226);
     --LogoutButtonBackgroundColor: rgb(230, 218, 218);
+    --ProfileSectionBottomBorderColor: rgb(226, 226, 228);
     --MediaBorderRadius: calc(18px / 1.75);
     --MessageBoxBorderRadius: calc(48px / 2);
     --CubicBezierAnimation: cubic-bezier(0.4, 0, 0.2, 1);
@@ -140,6 +141,12 @@
 
 [type = "user_profile"].Container-sc-1d91xkm-1 {
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
+    ._header_kup3j_8 {
+        border-bottom: 1px solid var(--ProfileSectionBottomBorderColor);
+        ._tabs_kup3j_69 {
+            margin-bottom: -2px;
+        }
+    }
 }
 
 ._closeButton_t7t23_240 {
@@ -858,7 +865,7 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
 }
 
 .Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > .error {
-    margin-right: 8px;
+    margin-right: 12px;
 }
 
 .Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > div {
