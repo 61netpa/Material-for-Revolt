@@ -820,6 +820,18 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     margin: 0 !important;
 }
 
+._invite_hx3lg_1 ._details_hx3lg_31 {
+    background: var(--PopoutColor);
+    border-radius: 18px;
+    max-width: 440px;
+    width: 100%;
+    box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
+}
+
+._invite_hx3lg_1 ._details_hx3lg_31 .Category-sc-tvyi45-0 {
+    display: none;
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
