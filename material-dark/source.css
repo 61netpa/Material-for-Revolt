@@ -598,7 +598,7 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     background-color: var(--ContextMenuButtonBackgroundHoverColor) !important;
 }
 
-._memberView_yllm8_99, ._memberView_yllm8_99 .Checkmark-sc-1c2l8gq-6, ._invite_yllm8_51, ._ban_yllm8_52 {
+._memberView_yllm8_99, ._invite_yllm8_51, ._ban_yllm8_52 {
     background: transparent !important;
 }
 
