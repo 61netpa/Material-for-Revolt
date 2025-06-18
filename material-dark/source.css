@@ -813,7 +813,7 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
 }
 
 ._sessions_fwdgs_285 > hr {
-    margin: 0;
+    margin: 0 !important;
 }
 
 @keyframes opacity-anim {
