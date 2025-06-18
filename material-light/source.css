@@ -789,7 +789,7 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
 }
 
 ._sessions_fwdgs_285 ._entry_fwdgs_300 {
-    padding: 5px 8px;
+    padding: 0 8px;
 }
 
 ._sessions_fwdgs_285 ._session_fwdgs_285:hover {
@@ -801,6 +801,7 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     padding: 8px;
     gap: 16px;
     background: var(--ChannelCreatorTypeBackgroundColor);
+    margin-bottom: 0;
     > ._label_fwdgs_341 {
         position: relative;
         font-weight: 400;
