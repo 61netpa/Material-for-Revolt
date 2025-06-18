@@ -853,6 +853,33 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     display: none;
 }
 
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions {
+    gap: 8px;
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > .error {
+    margin-right: 8px;
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > div {
+    background: var(--TimeDividerColor);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > div:not(.error):has(rect[stroke = "currentColor"]):hover {
+    background-color: var(--success);
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > div:not(.error):not(:has(rect[stroke = "currentColor"])):hover {
+    background-color: var(--warning);
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > .error:hover {
+    background-color: var(--error);
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
