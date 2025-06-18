@@ -138,7 +138,7 @@
     border: none;
 }
 
-.Container-sc-1d91xkm-1 {
+[type = "user_profile"].Container-sc-1d91xkm-1 {
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
 }
 
