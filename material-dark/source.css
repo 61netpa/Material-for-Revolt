@@ -553,6 +553,10 @@ div[type = "user_profile"] .Content-sc-1d91xkm-3 {
     transition: background-color 100ms var(--CubicBezierAnimation), box-shadow 250ms var(--CubicBezierAnimation);
 }
 
+.InputBox-sc-13s1218-0:hover {
+    background-color: var(--secondary-background);
+}
+
 .InputBox-sc-13s1218-0:focus {
     box-shadow: inset 0 -1px 0 0 var(--accent);
 }
