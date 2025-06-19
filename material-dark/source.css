@@ -53,7 +53,9 @@
     padding: 14px 14px 14px 10px;
 }
 
-/* Not completed, the emoji background goes out of the screen. */
+.AutoComplete__Base-sc-dtvq9c-0 {
+    margin-right: 30px;
+}
 
 .AutoComplete__Base-sc-dtvq9c-0 > div {
     z-index: 2;
@@ -65,14 +67,13 @@
 }
 
 .AutoComplete__Base-sc-dtvq9c-0 > div > button {
+    border-radius: 18px;
     transition: background-color 250ms var(--CubicBezierAnimation);
 }
 
 .AutoComplete__Base-sc-dtvq9c-0 > div > .active {
     background: var(--ActionBarButtonBackgroundHoverColor);
 }
-
-/* Not completed, the emoji background goes out of the screen. */
 
 .FilePreview__Container-sc-znkm6h-0 {
     border-radius: var(--MessageBoxBorderRadius) var(--MessageBoxBorderRadius) 0 0;
