@@ -861,6 +861,14 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     display: none;
 }
 
+._invite_hx3lg_1 ._icon_hx3lg_15 .IconBase__ImageIconBase-sc-igncj4-1 {
+    border-radius: 24px;
+}
+
+._invite_hx3lg_1 ._icon_hx3lg_15 .IconBase__ImageIconBase-sc-igncj4-1, ._invite_hx3lg_1 ._details_hx3lg_31 svg {
+    overflow: revert;
+}
+
 .Titlebar__TitlebarBase-sc-1ykozpe-0 .actions {
     gap: 8px;
 }
