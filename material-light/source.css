@@ -37,7 +37,7 @@
 }
 
 .MessageBox__Base-sc-jul4fa-0 {
-    border-radius: var(--MessageBoxBorderRadius) !important;
+    border-radius: var(--MessageBoxBorderRadius);
     position: relative;
     top: -10px;
     margin-right: 15px;
