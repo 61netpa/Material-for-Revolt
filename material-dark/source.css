@@ -205,6 +205,10 @@
     position: relative;
 }
 
+.MessageBase-sc-1s9ehlg-0:has(.SystemMessage__SystemContent-sc-1au0o14-0) .MessageBase__MessageInfo-sc-1s9ehlg-1 {
+    left: -70px;
+}
+
 .MessageBase__MessageInfo-sc-1s9ehlg-1:not(:has(time)) {
     left: -50px;
     width: 40px;
