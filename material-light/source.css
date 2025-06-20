@@ -532,6 +532,10 @@ div[id ^= "01"]:hover {
     border-radius: 0 0 18px 18px;
 }
 
+._entries_kup3j_131 {
+    gap: 0;
+}
+
 div[type = "user_profile"] .Content-sc-1d91xkm-3 {
     padding: 0;
 }
