@@ -617,6 +617,11 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     background: transparent !important;
 }
 
+.Base-sc-1c2l8gq-0 {
+    width: 40px;
+    gap: 0;
+}
+
 .Base-sc-1c2l8gq-0:hover {
     background-color: var(--ContextMenuButtonBackgroundHoverColor);
 }
