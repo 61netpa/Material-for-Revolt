@@ -150,11 +150,12 @@
 
 [type = "user_profile"].Container-sc-1d91xkm-1 {
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
-    ._header_kup3j_8 {
-        border-bottom: 1px solid var(--ProfileSectionBottomBorderColor);
-        ._tabs_kup3j_69 {
-            margin-bottom: -2px;
-        }
+}
+
+._header_kup3j_8 {
+    border-bottom: 1px solid var(--ProfileSectionBottomBorderColor);
+    ._tabs_kup3j_69 {
+        margin-bottom: -2px;
     }
 }
 
