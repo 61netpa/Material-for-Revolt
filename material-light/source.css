@@ -912,6 +912,27 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     background-color: var(--error);
 }
 
+._list_fwdgs_383 {
+    background-color: var(--ChannelCreatorTypeBackgroundColor);
+    padding: 8px;
+    border-radius: 18px;
+}
+
+._list_fwdgs_383 > .Base-sc-1c2l8gq-0 {
+    border-radius: calc(18px / 1.65) !important;
+    transition: background-color 250ms var(--CubicBezierAnimation) !important;
+    padding: 0 12px !important;
+    height: 48px !important;
+}
+
+._list_fwdgs_383 > .Base-sc-1c2l8gq-0:not(:has([value = true].Checkmark-sc-1c2l8gq-6)):hover {
+    background-color: var(--InputBackgroundColor) !important;
+}
+
+._list_fwdgs_383 > .Base-sc-1c2l8gq-0:has([value = true].Checkmark-sc-1c2l8gq-6) {
+    background-color: var(--ChannelCreatorTypeSelectedButtonBackgroundColor);
+}
+
 @keyframes opacity-anim {
     from {
         opacity: 0;
