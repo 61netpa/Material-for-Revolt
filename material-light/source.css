@@ -197,10 +197,19 @@
     background: var(--primary-background);
 }
 
+div[id ^= "01"] {
+    margin-left: 70px;
+    margin-right: 10px;
+    border-radius: 18px;
+}
+
 .MessageBase-sc-1s9ehlg-0 {
     background-color: var(--MessageBackgroundColor);
     border-radius: 18px;
     transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+.MessageBase-sc-1s9ehlg-0:has(.SystemMessage__SystemContent-sc-1au0o14-0) {
     margin-left: 70px;
     margin-right: 10px;
 }
@@ -321,7 +330,7 @@ div[id ^= "01"]:hover {
 
 .MessageReply__ReplyBase-sc-utzx7-0 {
     position: relative;
-    left: 10px;
+    left: -60px;
 }
 
 .EmbedInvite__EmbedInviteBase-sc-154n8c6-0 {
