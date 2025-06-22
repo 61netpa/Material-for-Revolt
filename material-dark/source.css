@@ -933,6 +933,7 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     transition: background-color 250ms var(--CubicBezierAnimation) !important;
     padding: 0 12px !important;
     height: 48px !important;
+    background: transparent !important;
 }
 
 ._list_fwdgs_383 > .Base-sc-1c2l8gq-0:not(:has([value = true].Checkmark-sc-1c2l8gq-6)):hover {
