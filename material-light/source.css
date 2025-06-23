@@ -193,6 +193,10 @@
     background: var(--primary-background);
 }
 
+.SidebarBase__GenericSidebarBase-sc-1dma6vq-1:not(:has(a[href = "/friends"])) {
+    margin-right: -11px;
+}
+
 .MemberList__ListCategory-sc-1bwlier-0 {
     background: var(--primary-background);
 }
