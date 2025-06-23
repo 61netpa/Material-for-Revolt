@@ -784,6 +784,15 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     background-color: var(--EmbedBackgroundColor);
 }
 
+.Groups-sc-1c6g74-3 .EmojiContainer-sc-1c6g74-4 .Image-sc-3bwws8-0 {
+    width: 32px;
+    height: 32px;
+}
+
+.EmojiContainer-sc-1c6g74-4:hover img {
+    border-radius: 12px;
+}
+
 .Base-sc-1c6g74-0 .InputBox-sc-13s1218-0 {
     height: 40px;
     margin: 0;
