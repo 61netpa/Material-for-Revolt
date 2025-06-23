@@ -229,6 +229,10 @@ div[id ^= "01"] {
     height: 40px;
 }
 
+.MessageBase-sc-1s9ehlg-0 .MessageBase__MessageInfo-sc-1s9ehlg-1 time {
+    transition: opacity 250ms var(--CubicBezierAnimation);
+}
+
 .MessageBase__MessageInfo-sc-1s9ehlg-1 > div {
     width: 50px;
 }
