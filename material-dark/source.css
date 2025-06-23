@@ -848,6 +848,10 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     font-size: 0.625rem;
 }
 
+.MessageBase-sc-1s9ehlg-0 .MessageBase__MessageContent-sc-1s9ehlg-2 .UserShort__BotBadge-sc-1sbe9n1-0 {
+    top: 1px;
+}
+
 ._sessions_fwdgs_285 ._session_fwdgs_285 {
     border-radius: calc(18px / 1.65);
     margin-bottom: 0;
