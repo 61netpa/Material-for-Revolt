@@ -231,6 +231,7 @@ div[id ^= "01"] {
     left: -50px;
     width: 40px;
     height: 40px;
+    top: -2px;
 }
 
 .MessageBase-sc-1s9ehlg-0 .MessageBase__MessageInfo-sc-1s9ehlg-1 time {
