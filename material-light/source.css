@@ -858,6 +858,28 @@ div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
     font-size: 0.625rem;
 }
 
+._botCard_fwdgs_456 {
+    background-color: var(--ChannelCreatorTypeBackgroundColor) !important;
+    border-radius: 18px !important;
+}
+
+.MyBots__BotBadge-sc-appzz8-0 {
+    border-radius: 8px;
+}
+
+._botCard_fwdgs_456 .Base-sc-j9ukbi-0 {
+    background-color: transparent;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+._botCard_fwdgs_456 .Base-sc-j9ukbi-0:hover {
+    background-color: var(--PendingRequestsBackgroundColor);
+}
+
+._botCard_fwdgs_456 a:hover {
+    color: var(--foreground);
+}
+
 .MessageBase-sc-1s9ehlg-0 .MessageBase__MessageContent-sc-1s9ehlg-2 .UserShort__BotBadge-sc-1sbe9n1-0 {
     top: 1px;
 }
